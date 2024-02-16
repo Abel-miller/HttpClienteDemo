@@ -1,16 +1,20 @@
-# httpclientedemo
+# HttpClienteDemo
 
-A new Flutter project.
+## Descripción del Proyecto
 
-## Getting Started
+Este proyecto es una pequeña aplicación Flutter que realiza una solicitud HTTP GET a una API pública y muestra los títulos de las primeras 5 publicaciones en la interfaz de usuario.
 
-This project is a starting point for a Flutter application.
+## Cómo Funciona
 
-A few resources to get you started if this is your first Flutter project:
+1. **Solicitud HTTP GET:**
+   - La aplicación realiza una solicitud HTTP GET a la API pública `https://jsonplaceholder.typicode.com/posts` para obtener datos de publicaciones.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Mostrar Datos en la Interfaz de Usuario:**
+   - Los títulos de las primeras 5 publicaciones se presentan en la pantalla principal de la aplicación.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Configuración del Proyecto
+
+### Requisitos Previos
+- Asegúrate de tener Flutter y Dart instalados en tu entorno de desarrollo.
+
+   git clone https://github.com/Abel-miller/HttpClienteDemo.git
